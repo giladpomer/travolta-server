@@ -52,6 +52,12 @@
     <TypeScriptCompile Include="endpoints\destinations.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>
+    <TypeScriptCompile Include="modules\hotels-searcher.test.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="modules\hotels-searcher.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
     <TypeScriptCompile Include="modules\stay-price-calculator.test.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>
@@ -69,6 +75,9 @@
       <SubType>Code</SubType>
     </TypeScriptCompile>
     <TypeScriptCompile Include="types\hotel-info.d.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="types\hotel-search-result.d.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>
   </ItemGroup>
