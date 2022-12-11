@@ -1,7 +1,7 @@
 import { HotelInfo } from '../types/hotel-info';
 
 import express = require('express');
-import DestinationsFinder = require('../modules/destinations_finder');
+import DestinationsFinder = require('../modules/destinations-finder');
 import HotelsInfoProvider = require('../providers/hotels-info-provider');
 
 const router = express.Router();

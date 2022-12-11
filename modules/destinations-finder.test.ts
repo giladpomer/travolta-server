@@ -1,7 +1,7 @@
 import { Destination } from '../types/destination';
 import { HotelInfo } from '../types/hotel-info';
 
-import DestinationsFinder = require('./destinations_finder');
+import DestinationsFinder = require('./destinations-finder');
 
 test('destinations list based on hotels list', () => {
     const mockHotelsInfo: HotelInfo[] = [

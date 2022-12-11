@@ -62,10 +62,10 @@
       <SubType>Code</SubType>
     </TypeScriptCompile>
     <TypeScriptCompile Include="types\destination.d.ts" />
-    <TypeScriptCompile Include="modules\destinations_finder.test.ts">
+    <TypeScriptCompile Include="modules\destinations-finder.test.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>
-    <TypeScriptCompile Include="modules\destinations_finder.ts">
+    <TypeScriptCompile Include="modules\destinations-finder.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>
     <TypeScriptCompile Include="types\hotel-info.d.ts">
