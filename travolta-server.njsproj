@@ -33,6 +33,7 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="server.ts" />
+    <Content Include="data\hotels.json" />
     <Content Include="jest.config.js">
       <SubType>Code</SubType>
     </Content>
@@ -42,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="modules\" />
+    <Folder Include="data\" />
     <Folder Include="types\" />
   </ItemGroup>
   <ItemGroup>

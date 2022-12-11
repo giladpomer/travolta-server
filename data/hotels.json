@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Monbijou Hotel",
+    "city": "Berlin",
+    "country": "Germany",
+    "price_per_night": 90,
+    "photo_url": "https://cf.bstatic.com/xdata/images/hotel/square200/16328992.webp?k=2eca52c67aadb6796238e1031168b51695ee32bf8d9bcd86431d825673e166d0&o=&s=1"
+  },
+  {
+    "id": 2,
+    "name": "Scandic Berlin Potsdamer Platz",
+    "city": "Berlin",
+    "country": "Germany",
+    "price_per_night": 182,
+    "photo_url": "https://cf.bstatic.com/xdata/images/hotel/square200/283440615.webp?k=580f798d2c322d3a1ab8598362eb494d91fd34b0e43a16a13f7f569f749d19ca&o=&s=1"
+  },
+  {
+    "id": 3,
+    "name": "Leonardo Hotel Berlin Mitte",
+    "city": "Berlin",
+    "country": "Germany",
+    "price_per_night": 77,
+    "photo_url": "https://cf.bstatic.com/xdata/images/hotel/square200/385591282.webp?k=1403b40ecf84a9159db1266ea5f517204dd5e282c2f426b4c67ef6c351d23dc2&o=&s=1"
+  },
+  {
+    "id": 4,
+    "name": "The Herbert",
+    "city": "Tel Aviv",
+    "country": "Israel",
+    "price_per_night": 187,
+    "photo_url": "https://cf.bstatic.com/xdata/images/hotel/square200/262772485.webp?k=c8640548798c893b69fb19a2c7d3803bda8a964549f368916db9157b91c8b56d&o=&s=1"
+  },
+  {
+    "id": 5,
+    "name": "David InterContinental Tel Aviv",
+    "city": "Tel Aviv",
+    "country": "Israel",
+    "price_per_night": 413,
+    "photo_url": "https://cf.bstatic.com/xdata/images/hotel/square200/318218060.webp?k=945bd21826278b7164df03d02e3af19fac85aff309a3d997148cfb88ce322413&o=&s=1"
+  },
+  {
+    "id": 6,
+    "name": "Herods Tel Aviv By The Beach",
+    "city": "Tel Aviv",
+    "country": "Israel",
+    "price_per_night": 243,
+    "photo_url": "https://cf.bstatic.com/xdata/images/hotel/square200/118226358.webp?k=84f0917839a9940025350c91a21890fb4718a85c2b54bf9b9704c18c97bd866f&o=&s=1"
+  }
+]
