@@ -40,6 +40,22 @@
     <Content Include="package.json" />
     <Content Include="README.md" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="modules\" />
+    <Folder Include="types\" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="types\destination.d.ts" />
+    <TypeScriptCompile Include="modules\destinations_finder.test.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="modules\destinations_finder.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="types\hotel-info.d.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+  </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
   <ProjectExtensions>
     <VisualStudio>
