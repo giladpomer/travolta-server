@@ -5,6 +5,7 @@ import { SearchParameters } from '../types/search-parameters';
 import { DateSpan } from '../types/date-span';
 
 import StayPriceCalculator = require('./stay-price-calculator');
+import AvailabilityCalculator = require('./availability-calculator');
 import deepEqual = require('deep-equal');
 
 export function search(
@@ -32,8 +33,14 @@ function convertHotelInfoIntoSearchResult(
         timeframe
     );
 
+    const isAvailable: boolean = AvailabilityCalculator.calculateIsAvailableInTimeframe(
+        hotelInfo.availability,
+        timeframe
+    );
+
     return {
         hotelInfo: hotelInfo,
         price_of_stay: priceOfStay,
+        is_available: isAvailable
     };
 }
