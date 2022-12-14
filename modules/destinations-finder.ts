@@ -1,13 +1,13 @@
-import { Destination } from "../types/destination";
-import { HotelInfo } from "../types/hotel-info";
+import { Location } from '../types/location';
+import { HotelInfo } from '../types/hotel-info';
 
 import deepEqual = require('deep-equal');
 
-export function find(hotelsInfo: HotelInfo[]): Destination[] {
-    const destinations: Destination[] = [];
+export function find(hotelsInfo: HotelInfo[]): Location[] {
+    const destinations: Location[] = [];
 
     hotelsInfo.forEach(hotelInfo => {
-        const destination: Destination = {
+        const destination: Location = {
             city: hotelInfo.city,
             country: hotelInfo.country
         };

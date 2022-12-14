@@ -1,4 +1,4 @@
-import { Destination } from '../types/destination';
+import { Location } from '../types/location';
 import { HotelInfo } from '../types/hotel-info';
 
 import DestinationsFinder = require('./destinations-finder');
@@ -31,7 +31,7 @@ test('destinations list based on hotels list', () => {
         }
     ];
 
-    const expectedDestinationList: Destination[] = [
+    const expectedDestinationList: Location[] = [
         {
             city: 'Berlin',
             country: 'Germany'
