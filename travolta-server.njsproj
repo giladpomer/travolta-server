@@ -70,6 +70,9 @@
     <TypeScriptCompile Include="providers\hotels-info-provider.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>
+    <TypeScriptCompile Include="types\date-span.d.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
     <TypeScriptCompile Include="types\location.d.ts" />
     <TypeScriptCompile Include="modules\destinations-finder.test.ts">
       <SubType>Code</SubType>
@@ -81,6 +84,9 @@
       <SubType>Code</SubType>
     </TypeScriptCompile>
     <TypeScriptCompile Include="types\hotel-search-result.d.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="types\search-parameters.d.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>
   </ItemGroup>

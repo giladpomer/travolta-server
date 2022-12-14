@@ -1,17 +1,17 @@
+import { DateSpan } from '../types/date-span';
+
 const DAY_IN_MILLISECONDS: number = 1000 * 60 * 60 * 24;
 
 export function calculateStayPrice(
     pricePerNight: number,
-    checkInDate: Date,
-    checkOutDate: Date): number {
-    const nights: number = calculateNightsAmount(checkInDate, checkOutDate);
+    timeframe: DateSpan): number {
+    const nights: number = calculateNightsAmount(timeframe);
 
     return nights * pricePerNight;
 }
 
 function calculateNightsAmount(
-    checkInDate: Date,
-    checkOutDate: Date): number {
-    const timeSpanInMilliseconds: number = checkOutDate.getTime() - checkInDate.getTime();
+    timeframe: DateSpan): number {
+    const timeSpanInMilliseconds: number = timeframe.until.getTime() - timeframe.from.getTime();
     return Math.round(timeSpanInMilliseconds / DAY_IN_MILLISECONDS);
 }

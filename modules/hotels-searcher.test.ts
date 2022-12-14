@@ -1,6 +1,7 @@
 import { Location } from '../types/location';
 import { HotelInfo } from '../types/hotel-info';
 import { HotelSearchResult } from '../types/hotel-search-result';
+import { SearchParameters } from '../types/search-parameters';
 
 import HotelsSearcher = require('./hotels-searcher');
 
@@ -48,12 +49,18 @@ test('search results based on destination', () => {
         country: 'Spain'
     };
 
+    const searchParameters: SearchParameters = {
+        destination: searchDestination,
+        timeframe: {
+            from: new Date(),
+            until: new Date(),
+        },
+        adultsAmount: 0
+    };
+
     const searchResults: HotelSearchResult[] = HotelsSearcher.search(
         mockHotelsInfo,
-        searchDestination,
-        new Date(),
-        new Date(),
-        0
+        searchParameters
     );
 
     const hotelsInSearchResults: string[] = searchResults.map(searchResult => searchResult.hotelInfo.name);
