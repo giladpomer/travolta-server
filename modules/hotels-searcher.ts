@@ -14,9 +14,11 @@ export function search(
     const matchingHotelInfos: HotelInfo[] = hotelsInfo
         .filter(hotelInfo => isHotelInfoMatchingDestination(hotelInfo, searchParameters.destination));
 
-    return matchingHotelInfos.map(hotelInfo => convertHotelInfoIntoSearchResult(
+    const hotelSearchResults = matchingHotelInfos.map(hotelInfo => convertHotelInfoIntoSearchResult(
         hotelInfo,
         searchParameters.timeframe));
+
+    return hotelSearchResults.sort(hotel => hotel.is_available ? -1 : 1);
 }
 
 function isHotelInfoMatchingDestination(
