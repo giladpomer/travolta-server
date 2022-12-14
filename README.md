@@ -21,3 +21,4 @@ The repository is automatically deployed on every successful push (all tests pas
 + [Express.js](https://expressjs.com/)
 + [Jest](https://jestjs.io/)
 + [deep-equal](https://www.npmjs.com/package/deep-equal)
++ [cors](https://www.npmjs.com/package/cors)
