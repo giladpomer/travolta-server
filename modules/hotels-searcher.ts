@@ -1,4 +1,4 @@
-import { Destination } from '../types/destination';
+import { Location } from '../types/location';
 import { HotelInfo } from '../types/hotel-info';
 import { HotelSearchResult } from '../types/hotel-search-result';
 
@@ -6,7 +6,7 @@ import StayPriceCalculator = require('./stay-price-calculator');
 
 export function search(
     hotelsInfo: HotelInfo[],
-    destination: Destination,
+    destination: Location,
     checkInDate: Date,
     checkOutDate: Date,
     adultsAmount: number): HotelSearchResult[] {
@@ -21,7 +21,7 @@ export function search(
 
 function isHotelInfoMatchingDestination(
     hotelInfo: HotelInfo,
-    destination: Destination): boolean {
+    destination: Location): boolean {
     return hotelInfo.city === destination.city
         && hotelInfo.country === destination.country;
 }

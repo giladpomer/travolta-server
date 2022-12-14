@@ -1,4 +1,4 @@
-﻿export interface Destination {
+﻿export interface Location {
     city: string,
     country: string
 }

@@ -1,4 +1,4 @@
-import { Destination } from '../types/destination';
+import { Location } from '../types/location';
 import { HotelInfo } from '../types/hotel-info';
 import { HotelSearchResult } from '../types/hotel-search-result';
 
@@ -37,7 +37,7 @@ test('search results based on destination', () => {
         'Hotel in central Madrid'
     ];
 
-    const searchDestination: Destination = {
+    const searchDestination: Location = {
         city: 'Madrid',
         country: 'Spain'
     };

@@ -70,7 +70,7 @@
     <TypeScriptCompile Include="providers\hotels-info-provider.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>
-    <TypeScriptCompile Include="types\destination.d.ts" />
+    <TypeScriptCompile Include="types\location.d.ts" />
     <TypeScriptCompile Include="modules\destinations-finder.test.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>
