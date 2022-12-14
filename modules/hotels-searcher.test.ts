@@ -50,7 +50,7 @@ test('search results based on destination', () => {
         0
     );
 
-    const hotelsInSearchResults: string[] = searchResults.map(searchResult => searchResult.name);
+    const hotelsInSearchResults: string[] = searchResults.map(searchResult => searchResult.hotelInfo.name);
 
     expect(hotelsInSearchResults)
         .toEqual(expectedHotelsInSearchResults);

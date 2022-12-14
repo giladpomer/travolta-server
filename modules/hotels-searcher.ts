@@ -37,11 +37,7 @@ function convertHotelInfoIntoSearchResult(
     );
 
     return {
-        id: hotelInfo.id,
-        name: hotelInfo.name,
-        city: hotelInfo.city,
-        country: hotelInfo.country,
+        hotelInfo: hotelInfo,
         price_of_stay: priceOfStay,
-        photo_url: hotelInfo.photo_url
     };
 }
