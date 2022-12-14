@@ -3,6 +3,7 @@ import { HotelInfo } from '../types/hotel-info';
 import { HotelSearchResult } from '../types/hotel-search-result';
 
 import StayPriceCalculator = require('./stay-price-calculator');
+import deepEqual = require('deep-equal');
 
 export function search(
     hotelsInfo: HotelInfo[],
@@ -22,8 +23,7 @@ export function search(
 function isHotelInfoMatchingDestination(
     hotelInfo: HotelInfo,
     destination: Location): boolean {
-    return hotelInfo.city === destination.city
-        && hotelInfo.country === destination.country;
+    return deepEqual(hotelInfo.location, destination);
 }
 
 function convertHotelInfoIntoSearchResult(

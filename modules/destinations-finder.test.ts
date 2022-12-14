@@ -8,24 +8,30 @@ test('destinations list based on hotels list', () => {
         {
             id: 1,
             name: '',
-            city: 'Berlin',
-            country: 'Germany',
+            location: {
+                city: 'Berlin',
+                country: 'Germany'
+            },
             price_per_night: 0,
             photo_url: ''
         },
         {
             id: 2,
             name: '',
-            city: 'Berlin',
-            country: 'Germany',
+            location: {
+                city: 'Berlin',
+                country: 'Germany'
+            },
             price_per_night: 0,
             photo_url: ''
         },
         {
             id: 3,
             name: '',
-            city: 'Paris',
-            country: 'France',
+            location: {
+                city: 'Paris',
+                country: 'France'
+            },
             price_per_night: 0,
             photo_url: ''
         }

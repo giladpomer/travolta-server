@@ -9,24 +9,30 @@ test('search results based on destination', () => {
         {
             id: 1,
             name: 'Hotel in Madrid',
-            city: 'Madrid',
-            country: 'Spain',
+            location: {
+                city: 'Madrid',
+                country: 'Spain'
+            },
             price_per_night: 0,
             photo_url: ''
         },
         {
             id: 2,
             name: 'Hotel in central Madrid',
-            city: 'Madrid',
-            country: 'Spain',
+            location: {
+                city: 'Madrid',
+                country: 'Spain'
+            },
             price_per_night: 0,
             photo_url: ''
         },
         {
             id: 3,
             name: 'Hotel in Berlin',
-            city: 'Berlin',
-            country: 'Germany',
+            location: {
+                city: 'Berlin',
+                country: 'Germany'
+            },
             price_per_night: 0,
             photo_url: ''
         }

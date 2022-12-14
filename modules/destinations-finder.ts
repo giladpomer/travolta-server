@@ -7,10 +7,7 @@ export function find(hotelsInfo: HotelInfo[]): Location[] {
     const destinations: Location[] = [];
 
     hotelsInfo.forEach(hotelInfo => {
-        const destination: Location = {
-            city: hotelInfo.city,
-            country: hotelInfo.country
-        };
+        const destination: Location = hotelInfo.location;
 
         //add if does not already exist
         if (!destinations.some(item => deepEqual(item, destination))) {

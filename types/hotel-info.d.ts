@@ -1,8 +1,9 @@
+import { Location } from './location'
+
 export interface HotelInfo {
     id: number,
     name: string,
-    city: string,
-    country: string,
+    location: Location,
     price_per_night: number,
     photo_url: string
 }
