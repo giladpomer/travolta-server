@@ -1,3 +1,4 @@
+import { DateSpan } from './date-span'
 import { Location } from './location'
 
 export interface HotelInfo {
@@ -5,5 +6,6 @@ export interface HotelInfo {
     name: string,
     location: Location,
     price_per_night: number,
+    availability: DateSpan[],
     photo_url: string
 }

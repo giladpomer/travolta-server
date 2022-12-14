@@ -15,6 +15,7 @@ test('search results based on destination', () => {
                 country: 'Spain'
             },
             price_per_night: 0,
+            availability: [],
             photo_url: ''
         },
         {
@@ -25,6 +26,7 @@ test('search results based on destination', () => {
                 country: 'Spain'
             },
             price_per_night: 0,
+            availability: [],
             photo_url: ''
         },
         {
@@ -35,6 +37,7 @@ test('search results based on destination', () => {
                 country: 'Germany'
             },
             price_per_night: 0,
+            availability: [],
             photo_url: ''
         }
     ];

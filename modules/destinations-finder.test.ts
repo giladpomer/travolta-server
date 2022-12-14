@@ -13,6 +13,7 @@ test('destinations list based on hotels list', () => {
                 country: 'Germany'
             },
             price_per_night: 0,
+            availability: [],
             photo_url: ''
         },
         {
@@ -23,6 +24,7 @@ test('destinations list based on hotels list', () => {
                 country: 'Germany'
             },
             price_per_night: 0,
+            availability: [],
             photo_url: ''
         },
         {
@@ -33,6 +35,7 @@ test('destinations list based on hotels list', () => {
                 country: 'France'
             },
             price_per_night: 0,
+            availability: [],
             photo_url: ''
         }
     ];
